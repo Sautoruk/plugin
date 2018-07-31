@@ -65,6 +65,7 @@ class JulianPlugin
 		register_post_type('book',['public' => true,'label' => 'Books']);
 	}
 }
+///holaaaaaaaaaaaa
 
 if(class_exists('JulianPlugin')){
 	$julianPlugin = new JulianPlugin();
