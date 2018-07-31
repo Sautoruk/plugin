@@ -1,0 +1,21 @@
+Image Gallery
+by GrandWP
+
+= 1.0.5=
+* Admin bugs fixed.
+
+= 1.0.4 =
+* Double Submission bugs fixed.
+
+= 1.0.3 =
+* GrandWP Easy contact form admin page bugs fixed.
+
+= 1.0.2 =
+* 1) Displaying Pro Features in Edit Form Settings Pages and Plugin Settings Page
+* 2) Changed Preview in Edit Form Settings Pages to display live changes
+
+= 1.0.1 =
+* add payment system.
+
+= 1.0.0 =
+* GrandWP Easy contact form launched.
