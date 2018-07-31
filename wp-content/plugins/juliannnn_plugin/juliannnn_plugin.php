@@ -51,17 +51,23 @@ class JulianPlugin
 	}
 	function activate(){
 		//generated a Custom Post Type
+		$this->custom_post_type();
 		//flush rewrite rules
 		flush_rewrite_rules();
 
 	}
+
 	function deactivate(){
 		//flush rewrite rules
+		flush_rewrite_rules();
+
 	}
+
 	function uninstall(){
 		//delete CPT
 		//delete all the plugin data from DB
 	}
+
 	function custom_post_type(){
 		register_post_type('book',['public' => true,'label' => 'Books']);
 	}
