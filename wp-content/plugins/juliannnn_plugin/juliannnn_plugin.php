@@ -52,6 +52,7 @@ class JulianPlugin
 	function activate(){
 		//generated a Custom Post Type
 		//flush rewrite rules
+		flush_rewrite_rules();
 
 	}
 	function deactivate(){
@@ -65,7 +66,6 @@ class JulianPlugin
 		register_post_type('book',['public' => true,'label' => 'Books']);
 	}
 }
-///holaaaaaaaaaaaa
 
 if(class_exists('JulianPlugin')){
 	$julianPlugin = new JulianPlugin();
