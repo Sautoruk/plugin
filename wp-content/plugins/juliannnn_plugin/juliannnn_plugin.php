@@ -63,11 +63,6 @@ class JulianPlugin
 
 	}
 
-	function uninstall(){
-		//delete CPT
-		//delete all the plugin data from DB
-	}
-
 	function custom_post_type(){
 		register_post_type('book',['public' => true,'label' => 'Books']);
 	}
